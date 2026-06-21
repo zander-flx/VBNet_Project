@@ -1,0 +1,591 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|c:\\users\\admin\\desktop\\github\\vbnet\\endterm project\\foodorderingsystem\\foodorderingsystem\\forms\\orderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\orderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\categorymanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\categorymanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\categorymanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\categorymanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\admindashboardform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\admindashboardform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\menumanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\menumanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\menumanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\menumanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\ordermanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\ordermanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\orderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\orderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\ordermanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\ordermanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\admindashboardform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\admindashboardform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\data\\dbconnectionfactory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\data\\dbconnectionfactory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\usermanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\usermanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\usermanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\usermanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\forms\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\forms\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\models\\appuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\models\\appuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\models\\category.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\models\\category.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\models\\order.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\models\\order.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\models\\menuitem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\models\\menuitem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\repositories\\menuitemrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\repositories\\menuitemrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\repositories\\categoryrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\repositories\\categoryrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\services\\userservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\services\\userservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\services\\orderservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\services\\orderservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\services\\authservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\services\\authservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\services\\session.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\services\\session.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\repositories\\userrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\repositories\\userrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\services\\menuitemservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\services\\menuitemservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\services\\categoryservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\services\\categoryservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\services\\passwordhasher.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\services\\passwordhasher.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\repositories\\orderrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\repositories\\orderrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\foodorderingsystem\\models\\orderitem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{982AE601-919C-49DC-8ED8-49A72C29E0C1}|FoodOrderingSystem\\FoodOrderingSystem.vbproj|solutionrelative:foodorderingsystem\\models\\orderitem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryManagementForm.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\CategoryManagementForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\CategoryManagementForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\CategoryManagementForm.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\CategoryManagementForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T08:06:05.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminDashboardForm.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\AdminDashboardForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\AdminDashboardForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\AdminDashboardForm.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\AdminDashboardForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T07:59:31.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\OrderForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\OrderForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\OrderForm.vb [Design]",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\OrderForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T03:25:41.54Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryManagementForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\CategoryManagementForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\CategoryManagementForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\CategoryManagementForm.vb [Design]",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\CategoryManagementForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T03:24:50.324Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuManagementForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\MenuManagementForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\MenuManagementForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\MenuManagementForm.vb [Design]",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\MenuManagementForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T03:25:10.133Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderManagementForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\OrderManagementForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\OrderManagementForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\OrderManagementForm.vb [Design]",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\OrderManagementForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T03:25:29.029Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuManagementForm.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\MenuManagementForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\MenuManagementForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\MenuManagementForm.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\MenuManagementForm.vb",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwDAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T08:12:17.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderForm.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\OrderForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\OrderForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\OrderForm.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\OrderForm.vb",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAwNMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T08:30:55.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderManagementForm.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\OrderManagementForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\OrderManagementForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\OrderManagementForm.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\OrderManagementForm.vb",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwHYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T08:19:27.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminDashboardForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\AdminDashboardForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\AdminDashboardForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\AdminDashboardForm.vb [Design]",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\AdminDashboardForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T07:58:31.382Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DbConnectionFactory.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Data\\DbConnectionFactory.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Data\\DbConnectionFactory.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Data\\DbConnectionFactory.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Data\\DbConnectionFactory.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:30:15.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\App.config",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\App.config",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\App.config",
+              "RelativeToolTip": "FoodOrderingSystem\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-19T02:47:13.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserManagementForm.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\UserManagementForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\UserManagementForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\UserManagementForm.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\UserManagementForm.vb",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T08:44:43.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserManagementForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\UserManagementForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\UserManagementForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\UserManagementForm.vb [Design]",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\UserManagementForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T08:41:58.041Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Application.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\My Project\\Application.Designer.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\My Project\\Application.Designer.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\My Project\\Application.Designer.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\My Project\\Application.Designer.vb",
+              "ViewState": "AgIAABAAAAAAAAAAAIAwwBUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T08:39:16.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginForm.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\LoginForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\LoginForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\LoginForm.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\LoginForm.vb",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T07:53:20.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\LoginForm.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Forms\\LoginForm.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Forms\\LoginForm.vb [Design]",
+              "RelativeToolTip": "FoodOrderingSystem\\Forms\\LoginForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T03:22:26.436Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Program.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Program.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Program.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Program.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T03:05:39.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MenuItemRepository.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Repositories\\MenuItemRepository.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Repositories\\MenuItemRepository.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Repositories\\MenuItemRepository.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Repositories\\MenuItemRepository.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:53:17.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryRepository.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Repositories\\CategoryRepository.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Repositories\\CategoryRepository.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Repositories\\CategoryRepository.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Repositories\\CategoryRepository.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:52:37.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MenuItem.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\MenuItem.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Models\\MenuItem.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\MenuItem.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Models\\MenuItem.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:34:47.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Order.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\Order.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Models\\Order.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\Order.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Models\\Order.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:35:21.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Category.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\Category.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Models\\Category.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\Category.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Models\\Category.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:33:47.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppUser.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\AppUser.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Models\\AppUser.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\AppUser.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Models\\AppUser.vb",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T03:03:35.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserService.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\UserService.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Services\\UserService.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\UserService.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Services\\UserService.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:59:03.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderService.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\OrderService.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Services\\OrderService.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\OrderService.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Services\\OrderService.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:40:53.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthService.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\AuthService.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Services\\AuthService.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\AuthService.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Services\\AuthService.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:58:23.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Session.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\Session.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Services\\Session.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\Session.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Services\\Session.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:57:29.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserRepository.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Repositories\\UserRepository.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Repositories\\UserRepository.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Repositories\\UserRepository.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Repositories\\UserRepository.vb",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:42:54.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MenuItemService.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\MenuItemService.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Services\\MenuItemService.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\MenuItemService.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Services\\MenuItemService.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:36:32.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryService.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\CategoryService.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Services\\CategoryService.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\CategoryService.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Services\\CategoryService.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:59:41.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PasswordHasher.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\PasswordHasher.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Services\\PasswordHasher.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\PasswordHasher.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Services\\PasswordHasher.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:58:03.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderRepository.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Repositories\\OrderRepository.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Repositories\\OrderRepository.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Repositories\\OrderRepository.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Repositories\\OrderRepository.vb",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:53:56.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderItem.vb",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\OrderItem.vb",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Models\\OrderItem.vb",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Github\\VBNet\\EndTerm Project\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\OrderItem.vb",
+              "RelativeToolTip": "FoodOrderingSystem\\Models\\OrderItem.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T02:35:45.092Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
