@@ -122,4 +122,10 @@ Partial Public Class MenuManagementForm
             LoadMenuItems()
         End If
     End Sub
+
+    Private Sub NewButton_Click(sender As Object, e As EventArgs) Handles NewButton.Click
+        ClearForm()
+        MenuGrid.ClearSelection()
+        SearchTextBox.Focus()
+    End Sub
 End Class

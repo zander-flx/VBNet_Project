@@ -1,5 +1,4 @@
-﻿Imports System.ComponentModel
-Imports FoodOrderingSystem.Models
+﻿Imports FoodOrderingSystem.Models
 Imports FoodOrderingSystem.Services
 
 Partial Public Class UserManagementForm
@@ -11,12 +10,9 @@ Partial Public Class UserManagementForm
         LoadUsers()
     End Sub
 
-    Private Sub LoadUsers(Optional term As String = "")
-        Dim list = _service.GetAll()
-        If Not String.IsNullOrWhiteSpace(term) Then
-            list = list.Where(Function(u) u.FullName.ToLower().Contains(term.ToLower()) OrElse u.Username.ToLower().Contains(term.ToLower())).ToList()
-        End If
-        UsersGrid.DataSource = list
+    Private Sub LoadUsers()
+        UsersGrid.DataSource = Nothing
+        UsersGrid.DataSource = _service.GetAll()
         UsersGrid.ClearSelection()
         ClearForm()
     End Sub
@@ -25,38 +21,49 @@ Partial Public Class UserManagementForm
         FullNameTextBox.Text = String.Empty
         UsernameTextBox.Text = String.Empty
         PasswordTextBox.Text = String.Empty
-        RoleComboBox.SelectedIndex = 0
+        ' Ensure "cashier" exists in your ComboBox Items in Designer
+        RoleComboBox.SelectedItem = "cashier"
         ActiveCheckBox.Checked = True
         _selectedId = 0
     End Sub
 
-    Private Sub SearchTextBox_TextChanged(sender As Object, e As EventArgs) Handles SearchTextBox.TextChanged
-        LoadUsers(SearchTextBox.Text)
-    End Sub
-
     Private Sub UsersGrid_SelectionChanged(sender As Object, e As EventArgs) Handles UsersGrid.SelectionChanged
-        If UsersGrid.CurrentRow Is Nothing OrElse UsersGrid.CurrentRow.DataBoundItem Is Nothing Then Return
+        If UsersGrid.SelectedRows.Count = 0 OrElse UsersGrid.CurrentRow Is Nothing OrElse
+            UsersGrid.CurrentRow.DataBoundItem Is Nothing Then
+            Return
+        End If
+
         Dim user = DirectCast(UsersGrid.CurrentRow.DataBoundItem, AppUser)
         _selectedId = user.Id
         FullNameTextBox.Text = user.FullName
         UsernameTextBox.Text = user.Username
-        PasswordTextBox.Text = String.Empty ' Security: Never show hashed passwords
+        PasswordTextBox.Text = String.Empty ' Security: Never show existing hash
         RoleComboBox.SelectedItem = user.Role
         ActiveCheckBox.Checked = user.IsActive
     End Sub
 
     Private Sub SaveButton_Click(sender As Object, e As EventArgs) Handles SaveButton.Click
         Try
-            Dim role = If(RoleComboBox.SelectedItem Is Nothing, "cashier", RoleComboBox.SelectedItem.ToString())
-            _service.Save(New AppUser With {
+            ' 1. Get the selected role safely
+            Dim role As String = "cashier"
+            If RoleComboBox.SelectedItem IsNot Nothing Then
+                role = RoleComboBox.SelectedItem.ToString()
+            End If
+
+            ' 2. Create the User Object (No validation here, let Service do it)
+            Dim user As New AppUser With {
                 .Id = _selectedId,
                 .FullName = FullNameTextBox.Text.Trim(),
                 .Username = UsernameTextBox.Text.Trim(),
-                .role = role,
+                .Role = role, ' Fixed: Capital R
                 .IsActive = ActiveCheckBox.Checked
-            }, PasswordTextBox.Text.Trim())
+            }
 
-            LoadUsers(SearchTextBox.Text)
+            ' 3. Pass the plain password to the Service. 
+            ' The Service will hash it if it's not empty, or keep the old one if it is.
+            _service.Save(user, PasswordTextBox.Text.Trim())
+
+            LoadUsers()
             MessageBox.Show("User saved successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Catch ex As Exception
             MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
@@ -65,9 +72,15 @@ Partial Public Class UserManagementForm
 
     Private Sub DeactivateButton_Click(sender As Object, e As EventArgs) Handles DeactivateButton.Click
         If _selectedId = 0 Then Return
-        If MessageBox.Show("Deactivate this user account?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+        If MessageBox.Show("Deactivate this user?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
             _service.Deactivate(_selectedId)
-            LoadUsers(SearchTextBox.Text)
+            LoadUsers()
         End If
+    End Sub
+
+    Private Sub NewButton_Click(sender As Object, e As EventArgs) Handles NewButton.Click
+        ClearForm()
+        UsersGrid.ClearSelection()
+        FullNameTextBox.Focus() ' Better UX: Focus on first input field
     End Sub
 End Class

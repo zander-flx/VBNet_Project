@@ -39,20 +39,20 @@ Partial Class CategoryManagementForm
         '
         'SearchTextBox
         '
-        Me.SearchTextBox.Location = New System.Drawing.Point(79, 27)
+        Me.SearchTextBox.Location = New System.Drawing.Point(12, 15)
         Me.SearchTextBox.Name = "SearchTextBox"
-        Me.SearchTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.SearchTextBox.Size = New System.Drawing.Size(307, 20)
         Me.SearchTextBox.TabIndex = 0
         '
         'CategoriesGrid
         '
         Me.CategoriesGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.CategoriesGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.CategoriesGrid.Location = New System.Drawing.Point(79, 85)
+        Me.CategoriesGrid.Location = New System.Drawing.Point(12, 41)
         Me.CategoriesGrid.Name = "CategoriesGrid"
         Me.CategoriesGrid.ReadOnly = True
         Me.CategoriesGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.CategoriesGrid.Size = New System.Drawing.Size(240, 150)
+        Me.CategoriesGrid.Size = New System.Drawing.Size(307, 353)
         Me.CategoriesGrid.TabIndex = 1
         '
         'UserDetailsGroupBox
@@ -66,9 +66,9 @@ Partial Class CategoryManagementForm
         Me.UserDetailsGroupBox.Controls.Add(Me.DescriptionTextBox)
         Me.UserDetailsGroupBox.Controls.Add(Me.NameTextBox)
         Me.UserDetailsGroupBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UserDetailsGroupBox.Location = New System.Drawing.Point(338, 39)
+        Me.UserDetailsGroupBox.Location = New System.Drawing.Point(338, 15)
         Me.UserDetailsGroupBox.Name = "UserDetailsGroupBox"
-        Me.UserDetailsGroupBox.Size = New System.Drawing.Size(317, 399)
+        Me.UserDetailsGroupBox.Size = New System.Drawing.Size(317, 379)
         Me.UserDetailsGroupBox.TabIndex = 7
         Me.UserDetailsGroupBox.TabStop = False
         Me.UserDetailsGroupBox.Text = "Category Details"
@@ -126,7 +126,7 @@ Partial Class CategoryManagementForm
         Me.ActiveCheckBox.AutoSize = True
         Me.ActiveCheckBox.Checked = True
         Me.ActiveCheckBox.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.ActiveCheckBox.Location = New System.Drawing.Point(87, 257)
+        Me.ActiveCheckBox.Location = New System.Drawing.Point(87, 137)
         Me.ActiveCheckBox.Name = "ActiveCheckBox"
         Me.ActiveCheckBox.Size = New System.Drawing.Size(65, 21)
         Me.ActiveCheckBox.TabIndex = 4
@@ -151,7 +151,7 @@ Partial Class CategoryManagementForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(668, 402)
         Me.Controls.Add(Me.UserDetailsGroupBox)
         Me.Controls.Add(Me.CategoriesGrid)
         Me.Controls.Add(Me.SearchTextBox)

@@ -33,7 +33,7 @@ Partial Class AdminDashboardForm
         'SubtitleLabel
         '
         Me.SubtitleLabel.AutoSize = True
-        Me.SubtitleLabel.Location = New System.Drawing.Point(29, 29)
+        Me.SubtitleLabel.Location = New System.Drawing.Point(12, 31)
         Me.SubtitleLabel.Name = "SubtitleLabel"
         Me.SubtitleLabel.Size = New System.Drawing.Size(77, 13)
         Me.SubtitleLabel.TabIndex = 0
@@ -43,7 +43,7 @@ Partial Class AdminDashboardForm
         '
         Me.MenuButton.Location = New System.Drawing.Point(32, 73)
         Me.MenuButton.Name = "MenuButton"
-        Me.MenuButton.Size = New System.Drawing.Size(99, 23)
+        Me.MenuButton.Size = New System.Drawing.Size(140, 23)
         Me.MenuButton.TabIndex = 1
         Me.MenuButton.Text = "Manage Menu"
         Me.MenuButton.UseVisualStyleBackColor = True
@@ -52,7 +52,7 @@ Partial Class AdminDashboardForm
         '
         Me.CategoriesButton.Location = New System.Drawing.Point(32, 114)
         Me.CategoriesButton.Name = "CategoriesButton"
-        Me.CategoriesButton.Size = New System.Drawing.Size(109, 23)
+        Me.CategoriesButton.Size = New System.Drawing.Size(140, 23)
         Me.CategoriesButton.TabIndex = 2
         Me.CategoriesButton.Text = "Manage Categories"
         Me.CategoriesButton.UseVisualStyleBackColor = True
@@ -61,7 +61,7 @@ Partial Class AdminDashboardForm
         '
         Me.OrdersButton.Location = New System.Drawing.Point(32, 161)
         Me.OrdersButton.Name = "OrdersButton"
-        Me.OrdersButton.Size = New System.Drawing.Size(109, 23)
+        Me.OrdersButton.Size = New System.Drawing.Size(140, 23)
         Me.OrdersButton.TabIndex = 3
         Me.OrdersButton.Text = "View Orders"
         Me.OrdersButton.UseVisualStyleBackColor = True
@@ -70,14 +70,14 @@ Partial Class AdminDashboardForm
         '
         Me.UsersButton.Location = New System.Drawing.Point(32, 209)
         Me.UsersButton.Name = "UsersButton"
-        Me.UsersButton.Size = New System.Drawing.Size(99, 23)
+        Me.UsersButton.Size = New System.Drawing.Size(140, 23)
         Me.UsersButton.TabIndex = 4
         Me.UsersButton.Text = "Manage Users"
         Me.UsersButton.UseVisualStyleBackColor = True
         '
         'LogoutButton
         '
-        Me.LogoutButton.Location = New System.Drawing.Point(56, 279)
+        Me.LogoutButton.Location = New System.Drawing.Point(97, 275)
         Me.LogoutButton.Name = "LogoutButton"
         Me.LogoutButton.Size = New System.Drawing.Size(75, 23)
         Me.LogoutButton.TabIndex = 5
@@ -88,7 +88,7 @@ Partial Class AdminDashboardForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(211, 327)
         Me.Controls.Add(Me.LogoutButton)
         Me.Controls.Add(Me.UsersButton)
         Me.Controls.Add(Me.OrdersButton)

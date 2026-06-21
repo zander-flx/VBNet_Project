@@ -37,6 +37,7 @@ Partial Class UserManagementForm
         Me.UsernameTextBox = New System.Windows.Forms.TextBox()
         Me.FullNameTextBox = New System.Windows.Forms.TextBox()
         Me.SearchTextBox = New System.Windows.Forms.TextBox()
+        Me.NewButton = New System.Windows.Forms.Button()
         CType(Me.UsersGrid, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UserDetailsGroupBox.SuspendLayout()
         Me.SuspendLayout()
@@ -54,6 +55,7 @@ Partial Class UserManagementForm
         '
         'UserDetailsGroupBox
         '
+        Me.UserDetailsGroupBox.Controls.Add(Me.NewButton)
         Me.UserDetailsGroupBox.Controls.Add(Me.NoteLabel)
         Me.UserDetailsGroupBox.Controls.Add(Me.RoleComboBox)
         Me.UserDetailsGroupBox.Controls.Add(Me.PasswordTextBox)
@@ -190,6 +192,16 @@ Partial Class UserManagementForm
         Me.SearchTextBox.Size = New System.Drawing.Size(100, 20)
         Me.SearchTextBox.TabIndex = 10
         '
+        'NewButton
+        '
+        Me.NewButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NewButton.Location = New System.Drawing.Point(9, 302)
+        Me.NewButton.Name = "NewButton"
+        Me.NewButton.Size = New System.Drawing.Size(85, 30)
+        Me.NewButton.TabIndex = 15
+        Me.NewButton.Text = "New"
+        Me.NewButton.UseVisualStyleBackColor = True
+        '
         'UserManagementForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -223,4 +235,5 @@ Partial Class UserManagementForm
     Friend WithEvents UsernameTextBox As TextBox
     Friend WithEvents FullNameTextBox As TextBox
     Friend WithEvents SearchTextBox As TextBox
+    Friend WithEvents NewButton As Button
 End Class

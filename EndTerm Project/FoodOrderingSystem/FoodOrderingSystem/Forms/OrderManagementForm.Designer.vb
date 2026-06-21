@@ -41,19 +41,19 @@ Partial Class OrderManagementForm
         Me.StatusFilterComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.StatusFilterComboBox.FormattingEnabled = True
         Me.StatusFilterComboBox.Items.AddRange(New Object() {"All", "Pending", "Preparing", "Ready", "Completed", "Cancelled"})
-        Me.StatusFilterComboBox.Location = New System.Drawing.Point(118, 51)
+        Me.StatusFilterComboBox.Location = New System.Drawing.Point(209, 14)
         Me.StatusFilterComboBox.Name = "StatusFilterComboBox"
-        Me.StatusFilterComboBox.Size = New System.Drawing.Size(121, 21)
+        Me.StatusFilterComboBox.Size = New System.Drawing.Size(138, 21)
         Me.StatusFilterComboBox.TabIndex = 0
         '
         'OrdersGrid
         '
         Me.OrdersGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.OrdersGrid.Location = New System.Drawing.Point(81, 141)
+        Me.OrdersGrid.Location = New System.Drawing.Point(12, 41)
         Me.OrdersGrid.Name = "OrdersGrid"
         Me.OrdersGrid.ReadOnly = True
         Me.OrdersGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.OrdersGrid.Size = New System.Drawing.Size(240, 150)
+        Me.OrdersGrid.Size = New System.Drawing.Size(335, 246)
         Me.OrdersGrid.TabIndex = 1
         '
         'ProductsDetailsGroupBox
@@ -66,9 +66,9 @@ Partial Class OrderManagementForm
         Me.ProductsDetailsGroupBox.Controls.Add(Me.CustomerInfoLabel)
         Me.ProductsDetailsGroupBox.Controls.Add(Me.OrderNumberLabel)
         Me.ProductsDetailsGroupBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ProductsDetailsGroupBox.Location = New System.Drawing.Point(353, 39)
+        Me.ProductsDetailsGroupBox.Location = New System.Drawing.Point(353, 14)
         Me.ProductsDetailsGroupBox.Name = "ProductsDetailsGroupBox"
-        Me.ProductsDetailsGroupBox.Size = New System.Drawing.Size(317, 399)
+        Me.ProductsDetailsGroupBox.Size = New System.Drawing.Size(291, 273)
         Me.ProductsDetailsGroupBox.TabIndex = 6
         Me.ProductsDetailsGroupBox.TabStop = False
         Me.ProductsDetailsGroupBox.Text = "Order Details"
@@ -76,7 +76,7 @@ Partial Class OrderManagementForm
         'OrderStatusLabel
         '
         Me.OrderStatusLabel.AutoSize = True
-        Me.OrderStatusLabel.Location = New System.Drawing.Point(6, 38)
+        Me.OrderStatusLabel.Location = New System.Drawing.Point(6, 25)
         Me.OrderStatusLabel.Name = "OrderStatusLabel"
         Me.OrderStatusLabel.Size = New System.Drawing.Size(89, 17)
         Me.OrderStatusLabel.TabIndex = 13
@@ -87,15 +87,15 @@ Partial Class OrderManagementForm
         Me.OrderStatusComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.OrderStatusComboBox.FormattingEnabled = True
         Me.OrderStatusComboBox.Items.AddRange(New Object() {"All", "Pending", "Preparing", "Ready", "Completed", "Cancelled"})
-        Me.OrderStatusComboBox.Location = New System.Drawing.Point(101, 38)
+        Me.OrderStatusComboBox.Location = New System.Drawing.Point(101, 22)
         Me.OrderStatusComboBox.Name = "OrderStatusComboBox"
-        Me.OrderStatusComboBox.Size = New System.Drawing.Size(210, 24)
+        Me.OrderStatusComboBox.Size = New System.Drawing.Size(137, 24)
         Me.OrderStatusComboBox.TabIndex = 12
         '
         'UpdateStatusButton
         '
         Me.UpdateStatusButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UpdateStatusButton.Location = New System.Drawing.Point(101, 336)
+        Me.UpdateStatusButton.Location = New System.Drawing.Point(109, 224)
         Me.UpdateStatusButton.Name = "UpdateStatusButton"
         Me.UpdateStatusButton.Size = New System.Drawing.Size(85, 30)
         Me.UpdateStatusButton.TabIndex = 11
@@ -105,7 +105,7 @@ Partial Class OrderManagementForm
         'ViewItemsButton
         '
         Me.ViewItemsButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ViewItemsButton.Location = New System.Drawing.Point(211, 336)
+        Me.ViewItemsButton.Location = New System.Drawing.Point(200, 224)
         Me.ViewItemsButton.Name = "ViewItemsButton"
         Me.ViewItemsButton.Size = New System.Drawing.Size(85, 30)
         Me.ViewItemsButton.TabIndex = 10
@@ -143,7 +143,7 @@ Partial Class OrderManagementForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(662, 298)
         Me.Controls.Add(Me.ProductsDetailsGroupBox)
         Me.Controls.Add(Me.OrdersGrid)
         Me.Controls.Add(Me.StatusFilterComboBox)

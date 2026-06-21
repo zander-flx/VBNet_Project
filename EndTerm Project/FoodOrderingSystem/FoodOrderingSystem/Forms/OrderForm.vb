@@ -11,6 +11,23 @@ Partial Public Class OrderForm
     Public Sub New()
         InitializeComponent()
 
+        ' For MenuGrid
+        MenuGrid.AutoGenerateColumns = False
+        MenuGrid.Columns.Clear()
+        MenuGrid.Columns.Add("CategoryName", "Category") : MenuGrid.Columns("CategoryName").DataPropertyName = "CategoryName"
+        MenuGrid.Columns.Add("Name", "Item Name") : MenuGrid.Columns("Name").DataPropertyName = "Name"
+        MenuGrid.Columns.Add("Description", "Description") : MenuGrid.Columns("Description").DataPropertyName = "Description"
+        MenuGrid.Columns.Add("Price", "Price") : MenuGrid.Columns("Price").DataPropertyName = "Price"
+        MenuGrid.Columns("Price").DefaultCellStyle.Format = "C2"
+
+        ' For CartGrid
+        CartGrid.AutoGenerateColumns = False
+        CartGrid.Columns.Clear()
+        CartGrid.Columns.Add("ItemName", "Item") : CartGrid.Columns("ItemName").DataPropertyName = "ItemName"
+        CartGrid.Columns.Add("Quantity", "Qty") : CartGrid.Columns("Quantity").DataPropertyName = "Quantity"
+        CartGrid.Columns.Add("UnitPrice", "Price") : CartGrid.Columns("UnitPrice").DataPropertyName = "UnitPrice"
+        CartGrid.Columns("UnitPrice").DefaultCellStyle.Format = "C2"
+
         ' Show cashier name
         UserLabel.Text = "Staff: " & If(Session.CurrentUser Is Nothing, "Guest", Session.CurrentUser.FullName)
         CartGrid.DataSource = _cart
@@ -34,32 +51,20 @@ Partial Public Class OrderForm
     End Sub
 
     Private Sub LoadMenu()
-        ' 1. Safely extract category ID (handles Nothing, DBNull, and init state)
-        Dim catId As Integer = 0
-        Dim selVal = CategoryComboBox.SelectedValue
+        Dim catId = If(CategoryComboBox.SelectedValue, 0)
 
-        If selVal IsNot Nothing AndAlso TypeOf selVal Is Integer Then
-            catId = CInt(selVal)
-        End If
+        ' 1. Get items from database
+        Dim items = If(catId = 0, _itemService.GetAll(), _itemService.GetByCategory(catId))
 
-        ' 2. Fetch items (wrapped to prevent load-time crashes)
-        Dim items As List(Of MenuItem) = Nothing
-        Try
-            items = If(catId = 0, _itemService.GetAll(), _itemService.GetByCategory(catId))
-        Catch ex As Exception
-            ' Silently ignore DB errors during form initialization
-            items = New List(Of MenuItem)()
-        End Try
+        ' 2. IMPORTANT: Filter out unavailable items for the Cashier view
+        items = items.Where(Function(i) i.IsAvailable).ToList()
 
-        ' 3. Guarantee list is never Nothing
-        If items Is Nothing Then items = New List(Of MenuItem)()
-
-        ' 4. Apply search filter if user typed something
+        ' 3. Apply search filter if user typed something
         If Not String.IsNullOrWhiteSpace(SearchTextBox.Text) Then
             items = items.Where(Function(i) i.Name.ToLower().Contains(SearchTextBox.Text.ToLower())).ToList()
         End If
 
-        ' 5. Bind to grid
+        ' 4. Bind to grid
         MenuGrid.DataSource = items
     End Sub
 

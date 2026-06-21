@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class OrderForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class OrderForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.TitleLabel = New System.Windows.Forms.Label()
         Me.UserLabel = New System.Windows.Forms.Label()
@@ -84,18 +84,18 @@ Partial Class OrderForm
         '
         'SearchTextBox
         '
-        Me.SearchTextBox.Location = New System.Drawing.Point(12, 110)
+        Me.SearchTextBox.Location = New System.Drawing.Point(158, 62)
         Me.SearchTextBox.Name = "SearchTextBox"
-        Me.SearchTextBox.Size = New System.Drawing.Size(272, 20)
+        Me.SearchTextBox.Size = New System.Drawing.Size(300, 20)
         Me.SearchTextBox.TabIndex = 17
         '
         'MenuGrid
         '
         Me.MenuGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.MenuGrid.Location = New System.Drawing.Point(12, 173)
+        Me.MenuGrid.Location = New System.Drawing.Point(12, 88)
         Me.MenuGrid.Name = "MenuGrid"
         Me.MenuGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.MenuGrid.Size = New System.Drawing.Size(133, 150)
+        Me.MenuGrid.Size = New System.Drawing.Size(446, 117)
         Me.MenuGrid.TabIndex = 18
         '
         'RemoveButton
@@ -111,7 +111,7 @@ Partial Class OrderForm
         'ClearButton
         '
         Me.ClearButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ClearButton.Location = New System.Drawing.Point(137, 381)
+        Me.ClearButton.Location = New System.Drawing.Point(127, 381)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(101, 34)
         Me.ClearButton.TabIndex = 20
@@ -151,7 +151,7 @@ Partial Class OrderForm
         'CategoryComboBox
         '
         Me.CategoryComboBox.FormattingEnabled = True
-        Me.CategoryComboBox.Location = New System.Drawing.Point(12, 146)
+        Me.CategoryComboBox.Location = New System.Drawing.Point(19, 61)
         Me.CategoryComboBox.Name = "CategoryComboBox"
         Me.CategoryComboBox.Size = New System.Drawing.Size(133, 21)
         Me.CategoryComboBox.TabIndex = 25
@@ -168,10 +168,10 @@ Partial Class OrderForm
         'CartGrid
         '
         Me.CartGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.CartGrid.Location = New System.Drawing.Point(151, 173)
+        Me.CartGrid.Location = New System.Drawing.Point(12, 211)
         Me.CartGrid.Name = "CartGrid"
         Me.CartGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.CartGrid.Size = New System.Drawing.Size(133, 150)
+        Me.CartGrid.Size = New System.Drawing.Size(446, 119)
         Me.CartGrid.TabIndex = 27
         '
         'QuantityPlusButton
@@ -196,22 +196,22 @@ Partial Class OrderForm
         '
         Me.OrderTypeComboBox.FormattingEnabled = True
         Me.OrderTypeComboBox.Items.AddRange(New Object() {"Dine-in", "Takeout", "Delivery"})
-        Me.OrderTypeComboBox.Location = New System.Drawing.Point(151, 338)
+        Me.OrderTypeComboBox.Location = New System.Drawing.Point(127, 338)
         Me.OrderTypeComboBox.Name = "OrderTypeComboBox"
-        Me.OrderTypeComboBox.Size = New System.Drawing.Size(53, 21)
+        Me.OrderTypeComboBox.Size = New System.Drawing.Size(77, 21)
         Me.OrderTypeComboBox.TabIndex = 30
         '
         'TableNumberTextBox
         '
-        Me.TableNumberTextBox.Location = New System.Drawing.Point(370, 173)
+        Me.TableNumberTextBox.Location = New System.Drawing.Point(536, 170)
         Me.TableNumberTextBox.Name = "TableNumberTextBox"
-        Me.TableNumberTextBox.Size = New System.Drawing.Size(287, 20)
+        Me.TableNumberTextBox.Size = New System.Drawing.Size(44, 20)
         Me.TableNumberTextBox.TabIndex = 31
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(298, 176)
+        Me.Label1.Location = New System.Drawing.Point(464, 173)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(54, 13)
         Me.Label1.TabIndex = 32
@@ -220,7 +220,7 @@ Partial Class OrderForm
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(298, 203)
+        Me.Label2.Location = New System.Drawing.Point(464, 200)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(51, 13)
         Me.Label2.TabIndex = 33
@@ -228,22 +228,22 @@ Partial Class OrderForm
         '
         'CustomerNameTextBox
         '
-        Me.CustomerNameTextBox.Location = New System.Drawing.Point(370, 203)
+        Me.CustomerNameTextBox.Location = New System.Drawing.Point(536, 200)
         Me.CustomerNameTextBox.Name = "CustomerNameTextBox"
-        Me.CustomerNameTextBox.Size = New System.Drawing.Size(285, 20)
+        Me.CustomerNameTextBox.Size = New System.Drawing.Size(121, 20)
         Me.CustomerNameTextBox.TabIndex = 34
         '
         'CustomerPhoneTextBox
         '
-        Me.CustomerPhoneTextBox.Location = New System.Drawing.Point(370, 239)
+        Me.CustomerPhoneTextBox.Location = New System.Drawing.Point(536, 236)
         Me.CustomerPhoneTextBox.Name = "CustomerPhoneTextBox"
-        Me.CustomerPhoneTextBox.Size = New System.Drawing.Size(285, 20)
+        Me.CustomerPhoneTextBox.Size = New System.Drawing.Size(121, 20)
         Me.CustomerPhoneTextBox.TabIndex = 36
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(298, 239)
+        Me.Label3.Location = New System.Drawing.Point(464, 236)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(66, 13)
         Me.Label3.TabIndex = 35
@@ -251,15 +251,15 @@ Partial Class OrderForm
         '
         'AddressTextBox
         '
-        Me.AddressTextBox.Location = New System.Drawing.Point(370, 276)
+        Me.AddressTextBox.Location = New System.Drawing.Point(536, 273)
         Me.AddressTextBox.Name = "AddressTextBox"
-        Me.AddressTextBox.Size = New System.Drawing.Size(285, 20)
+        Me.AddressTextBox.Size = New System.Drawing.Size(121, 20)
         Me.AddressTextBox.TabIndex = 38
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(298, 276)
+        Me.Label4.Location = New System.Drawing.Point(464, 273)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(45, 13)
         Me.Label4.TabIndex = 37
@@ -267,15 +267,15 @@ Partial Class OrderForm
         '
         'NotesTextBox
         '
-        Me.NotesTextBox.Location = New System.Drawing.Point(370, 313)
+        Me.NotesTextBox.Location = New System.Drawing.Point(536, 310)
         Me.NotesTextBox.Name = "NotesTextBox"
-        Me.NotesTextBox.Size = New System.Drawing.Size(285, 20)
+        Me.NotesTextBox.Size = New System.Drawing.Size(121, 20)
         Me.NotesTextBox.TabIndex = 40
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(298, 313)
+        Me.Label5.Location = New System.Drawing.Point(464, 310)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(35, 13)
         Me.Label5.TabIndex = 39

@@ -62,4 +62,10 @@ Partial Public Class CategoryManagementForm
             LoadCategories(SearchTextBox.Text)
         End If
     End Sub
+
+    Private Sub NewButton_Click(sender As Object, e As EventArgs) Handles NewButton.Click
+        ClearForm()
+        CategoriesGrid.ClearSelection()
+        SearchTextBox.Focus()
+    End Sub
 End Class

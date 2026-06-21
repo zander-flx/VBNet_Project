@@ -37,6 +37,7 @@ Partial Class MenuManagementForm
         Me.NameLabel = New System.Windows.Forms.Label()
         Me.PriceInput = New System.Windows.Forms.NumericUpDown()
         Me.NameTextBox = New System.Windows.Forms.TextBox()
+        Me.NewButton = New System.Windows.Forms.Button()
         CType(Me.MenuGrid, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ProductsDetailsGroupBox.SuspendLayout()
         CType(Me.PriceInput, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -44,32 +45,33 @@ Partial Class MenuManagementForm
         '
         'SearchTextBox
         '
-        Me.SearchTextBox.Location = New System.Drawing.Point(38, 12)
+        Me.SearchTextBox.Location = New System.Drawing.Point(12, 12)
         Me.SearchTextBox.Name = "SearchTextBox"
-        Me.SearchTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.SearchTextBox.Size = New System.Drawing.Size(225, 20)
         Me.SearchTextBox.TabIndex = 0
         '
         'MenuGrid
         '
         Me.MenuGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.MenuGrid.Location = New System.Drawing.Point(85, 108)
+        Me.MenuGrid.Location = New System.Drawing.Point(12, 48)
         Me.MenuGrid.Name = "MenuGrid"
         Me.MenuGrid.ReadOnly = True
         Me.MenuGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.MenuGrid.Size = New System.Drawing.Size(240, 150)
+        Me.MenuGrid.Size = New System.Drawing.Size(338, 330)
         Me.MenuGrid.TabIndex = 1
         '
         'CategoryFilterComboBox
         '
         Me.CategoryFilterComboBox.FormattingEnabled = True
         Me.CategoryFilterComboBox.Items.AddRange(New Object() {"All Categories", "Appetizers", "Beverages", "Desserts", "Main Dishes"})
-        Me.CategoryFilterComboBox.Location = New System.Drawing.Point(153, 12)
+        Me.CategoryFilterComboBox.Location = New System.Drawing.Point(243, 11)
         Me.CategoryFilterComboBox.Name = "CategoryFilterComboBox"
         Me.CategoryFilterComboBox.Size = New System.Drawing.Size(107, 21)
         Me.CategoryFilterComboBox.TabIndex = 2
         '
         'ProductsDetailsGroupBox
         '
+        Me.ProductsDetailsGroupBox.Controls.Add(Me.NewButton)
         Me.ProductsDetailsGroupBox.Controls.Add(Me.AvailableCheckBox)
         Me.ProductsDetailsGroupBox.Controls.Add(Me.CategoryLabel)
         Me.ProductsDetailsGroupBox.Controls.Add(Me.CategoryComboBox)
@@ -82,9 +84,9 @@ Partial Class MenuManagementForm
         Me.ProductsDetailsGroupBox.Controls.Add(Me.PriceInput)
         Me.ProductsDetailsGroupBox.Controls.Add(Me.NameTextBox)
         Me.ProductsDetailsGroupBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ProductsDetailsGroupBox.Location = New System.Drawing.Point(356, 39)
+        Me.ProductsDetailsGroupBox.Location = New System.Drawing.Point(356, 11)
         Me.ProductsDetailsGroupBox.Name = "ProductsDetailsGroupBox"
-        Me.ProductsDetailsGroupBox.Size = New System.Drawing.Size(317, 399)
+        Me.ProductsDetailsGroupBox.Size = New System.Drawing.Size(317, 367)
         Me.ProductsDetailsGroupBox.TabIndex = 6
         Me.ProductsDetailsGroupBox.TabStop = False
         Me.ProductsDetailsGroupBox.Text = "Menu Details"
@@ -138,7 +140,7 @@ Partial Class MenuManagementForm
         'SaveButton
         '
         Me.SaveButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SaveButton.Location = New System.Drawing.Point(117, 351)
+        Me.SaveButton.Location = New System.Drawing.Point(113, 331)
         Me.SaveButton.Name = "SaveButton"
         Me.SaveButton.Size = New System.Drawing.Size(85, 30)
         Me.SaveButton.TabIndex = 11
@@ -148,7 +150,7 @@ Partial Class MenuManagementForm
         'DeactivateButton
         '
         Me.DeactivateButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DeactivateButton.Location = New System.Drawing.Point(226, 351)
+        Me.DeactivateButton.Location = New System.Drawing.Point(226, 331)
         Me.DeactivateButton.Name = "DeactivateButton"
         Me.DeactivateButton.Size = New System.Drawing.Size(85, 30)
         Me.DeactivateButton.TabIndex = 10
@@ -189,11 +191,21 @@ Partial Class MenuManagementForm
         Me.NameTextBox.Size = New System.Drawing.Size(224, 23)
         Me.NameTextBox.TabIndex = 1
         '
+        'NewButton
+        '
+        Me.NewButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NewButton.Location = New System.Drawing.Point(9, 331)
+        Me.NewButton.Name = "NewButton"
+        Me.NewButton.Size = New System.Drawing.Size(85, 30)
+        Me.NewButton.TabIndex = 17
+        Me.NewButton.Text = "New"
+        Me.NewButton.UseVisualStyleBackColor = True
+        '
         'MenuManagementForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(686, 389)
         Me.Controls.Add(Me.ProductsDetailsGroupBox)
         Me.Controls.Add(Me.CategoryFilterComboBox)
         Me.Controls.Add(Me.MenuGrid)
@@ -224,4 +236,5 @@ Partial Class MenuManagementForm
     Friend WithEvents CategoryComboBox As ComboBox
     Friend WithEvents DescriptionTextBox As TextBox
     Friend WithEvents DescriptionLabel As Label
+    Friend WithEvents NewButton As Button
 End Class

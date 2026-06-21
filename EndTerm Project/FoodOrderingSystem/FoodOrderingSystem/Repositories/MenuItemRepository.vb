@@ -7,7 +7,7 @@ Namespace Repositories
         Private ReadOnly _factory As New DbConnectionFactory()
 
         Public Function GetAll() As List(Of MenuItem)
-            Return QueryMenuItems("SELECT m.id, m.category_id, c.name AS category_name, m.name, m.description, m.price, m.image_path, m.is_available FROM menu_items m LEFT JOIN categories c ON m.category_id = c.id WHERE m.is_available=1 ORDER BY c.name, m.name")
+            Return QueryMenuItems("SELECT m.id, m.category_id, c.name AS category_name, m.name, m.description, m.price, m.image_path, m.is_available FROM menu_items m LEFT JOIN categories c ON m.category_id = c.id ORDER BY c.name, m.name")
         End Function
 
         Public Function GetByCategory(categoryId As Integer) As List(Of MenuItem)

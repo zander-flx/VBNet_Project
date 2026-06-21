@@ -22,12 +22,19 @@ Namespace Services
             _users.Deactivate(userId)
         End Sub
 
+        ' Inside Services/UserService.vb -> ValidateUser method
         Private Sub ValidateUser(user As AppUser, plainPassword As String)
             If String.IsNullOrWhiteSpace(user.FullName) Then Throw New ArgumentException("Full name is required.")
             If String.IsNullOrWhiteSpace(user.Username) Then Throw New ArgumentException("Username is required.")
-            If user.Id = 0 AndAlso String.IsNullOrWhiteSpace(plainPassword) Then Throw New ArgumentException("Password is required for new users.")
+
+            ' Allow admin, cashier, OR staff
             If user.Role <> "admin" AndAlso user.Role <> "cashier" AndAlso user.Role <> "staff" Then
                 Throw New ArgumentException("Role must be admin, cashier, or staff.")
+            End If
+
+            ' Only require password for NEW users (Id = 0)
+            If user.Id = 0 AndAlso String.IsNullOrWhiteSpace(plainPassword) Then
+                Throw New ArgumentException("Password is required for new users.")
             End If
         End Sub
     End Class
