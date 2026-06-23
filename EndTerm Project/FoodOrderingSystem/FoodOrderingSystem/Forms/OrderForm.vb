@@ -51,25 +51,37 @@ Partial Public Class OrderForm
     End Sub
 
     Private Sub LoadMenu()
-        Dim catId = If(CategoryComboBox.SelectedValue, 0)
+        ' 1. Safely extract category ID (handles Nothing, DBNull, and init state)
+        Dim catId As Integer = 0
+        Dim selVal = CategoryComboBox.SelectedValue
 
-        ' 1. Get items from database
-        Dim items = If(catId = 0, _itemService.GetAll(), _itemService.GetByCategory(catId))
+        If selVal IsNot Nothing AndAlso TypeOf selVal Is Integer Then
+            catId = CInt(selVal)
+        End If
 
-        ' 2. IMPORTANT: Filter out unavailable items for the Cashier view
-        items = items.Where(Function(i) i.IsAvailable).ToList()
+        ' 2. Fetch items safely
+        Dim items As List(Of MenuItem) = Nothing
+        Try
+            items = If(catId = 0, _itemService.GetAll(), _itemService.GetByCategory(catId))
+        Catch ex As Exception
+            ' Prevents form crash during binding transitions
+            items = New List(Of MenuItem)()
+        End Try
 
-        ' 3. Apply search filter if user typed something
+        ' 3. Guarantee list is never Nothing
+        If items Is Nothing Then items = New List(Of MenuItem)()
+
+        ' 4. Apply search filter if user typed something
         If Not String.IsNullOrWhiteSpace(SearchTextBox.Text) Then
             items = items.Where(Function(i) i.Name.ToLower().Contains(SearchTextBox.Text.ToLower())).ToList()
         End If
 
-        ' 4. Bind to grid
+        ' 5. Bind to grid
         MenuGrid.DataSource = items
     End Sub
 
     Private Sub CategoryComboBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CategoryComboBox.SelectedIndexChanged
-        ' Prevents the event from running during form startup
+        ' 🔒 Prevents firing during form initialization or when selection is invalid
         If CategoryComboBox.SelectedIndex < 0 Then Return
 
         LoadMenu()

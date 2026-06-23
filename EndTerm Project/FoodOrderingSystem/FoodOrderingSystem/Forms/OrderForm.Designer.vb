@@ -150,11 +150,13 @@ Partial Class OrderForm
         '
         'CategoryComboBox
         '
+        Me.CategoryComboBox.DisplayMember = "Name"
         Me.CategoryComboBox.FormattingEnabled = True
         Me.CategoryComboBox.Location = New System.Drawing.Point(19, 61)
         Me.CategoryComboBox.Name = "CategoryComboBox"
         Me.CategoryComboBox.Size = New System.Drawing.Size(133, 21)
         Me.CategoryComboBox.TabIndex = 25
+        Me.CategoryComboBox.ValueMember = "Id"
         '
         'AddButton
         '
